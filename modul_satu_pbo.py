@@ -13,3 +13,15 @@ class test:
 
 # silahkan lanjutkan dengan fungsi dan calss anda dibawah
 # pastikan untuk menguji class dan fungsi yang sudah di buat disini
+
+# modul_satu_pbo.py
+class Mahasiswa:
+    def __init__(self, nama, nim):
+        self.nama = nama  
+        self.nim = nim    
+    
+    def tampilkan_info(self):
+        return f"Nama: {self.nama}, NIM: {self.nim}"
+
+def hitung_luas_persegi(panjang, lebar):
+    return panjang * lebar  # Fungsi untuk menghitung luas persegi panjang
