@@ -243,3 +243,13 @@ alsa.rimex()
 
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
+
+#uji fungsi dan class purnama sari kisman
+from modul_sari_pbo import Kecap
+
+kecap1 = Kecap("ABC", "Manis", 0.5, 15000)
+kecap2 = Kecap("Bango", "Asin", 1, 25000)
+kecap1.info_kecap()
+kecap1.ganti_rasa("Pedas Manis")
+kecap1.diskon(10)
+kecap2.info_kecap()
